@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome Page</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="pic.png" alt="" srcset="" id="imglogo">
+        </div>
+        <div class="nav-list">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="report.html">Report</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="home-content">
+        <p id="val-head">Current Moisture Level of Soil</p><br>
+        <p class="mois-value">85%</p><br>
+        <div>
+            <h3>Know the moisture level required according to the crop</h3><br>
+            <label for="crops">Choose Crop: </label>
+            <select name="crops" id="crop_name">
+                <option value="roses">Roses</option>
+                <option value="apples">Apples</option>
+                <option value="wheat">Wheat</option>
+                <option value="rice">Rice</option>
+                <option value="tomato">Tomato</option>
+            </select>
+        </div>
+        <div class="hints">
+            <button id="fmv" onclick="showVal()">Find Moisture Value</button>
+            <p id="hint-val"><span id="selopt"></span></p>
+        </div>
+        <div class="alerts">
+            <p class="alert"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

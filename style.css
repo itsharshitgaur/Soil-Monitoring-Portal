@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+#imglogo{
+    width: 4vw;
+    height: 4vw;
+}
+.nav-list{
+    margin-top: 3vh;
+    margin-left: 10vw;
+}
+.nav .nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav-links li{
+    margin-right: 7vw;
+    font-weight: bolder;
+    font-size: 2ch;
+}
+.nav-links li a:link{
+    color: black;
+    text-decoration: none;
+}
+.contact-box{
+    display: flex;
+    background-color: rgb(220, 214, 207);;
+    width: 60vw;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15vh;
+}
+.left-box{
+    width: 65%;
+}
+.map iframe{
+    width: 21vw;
+    height: 60vh;
+}
+textarea{
+    resize: none;
+}
+#form-table{
+    width: 100%;
+    height: 100%;
+}
+#form-table textarea{
+    margin-left: 1vw;
+    padding-top: 10px;
+    padding-left: 5px;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 90%;
+    font-weight: bold;
+}
+#user textarea, #usermail textarea{
+    width: 80%;
+    resize: none;
+}
+#form-table #msg{
+    height: 10vh;
+}
+#form-table h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#form-table button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 15px;
+    margin-left: 2vw;
+    color: white;
+    background-color: brown;
+    border-color: brown;
+    margin-bottom: 3vh;
+    cursor: pointer;
+}
+.home-content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    background-color: rgb(220, 214, 207);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+}
+.home-content #val-head{
+    font-size: 25px;
+}
+.home-content  .mois-value{
+    font-size: 30px;
+}
+.hints{
+    margin-top: 2vh;
+}
+.hints #fmv{
+    padding: 5px;
+    margin-top: 2vh;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    border-color: brown;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2vh;
+}
+.about-content{
+    margin-left: auto;
+    margin-right: auto;
+}
+.abttable{
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 2vh;
+}
+.abttable table{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-collapse: collapse;
+    background-color:  rgb(220, 214, 207);
+}
+.abttable ul{
+    list-style: none;
+}
+.abtpro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
